@@ -1,7 +1,6 @@
 const Profile = require("../models/Profile");
 const User = require("../models/User");
 const Post = require("../models/Post");
-const request = require("request");
 const config = require("config");
 const { validationResult } = require("express-validator");
 
